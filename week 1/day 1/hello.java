@@ -1,0 +1,2 @@
+// intro
+class Main{}
