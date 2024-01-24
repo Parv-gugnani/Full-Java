@@ -1,4 +1,4 @@
-//while loop
+//for loop
 import java.util.*;
 
 public class forloop {
@@ -19,27 +19,34 @@ public class forloop {
         // }
 
 
-        int n = scanner.nextInt();
+        // int n = scanner.nextInt();
 
-        int count=0;
+        // int count=0;
 
-        for(int i=2;i<=n/2;i++)
-        {
-        if(n%i==0) {
-             count++;
-             break;
-           }
-        }
+        // for(int i=2;i<=n/2;i++)
+        // {
+        // if(n%i==0) {
+        //      count++;
+        //      break;
+        //    }
+        // }
 
-        if(count==0)
-        {
-        System.out.print("Prime number");
-        }else
-        {
-        System.out.print("not prime");
-        }
+        // if(count==0)
+        // {
+        // System.out.print("Prime number");
+        // }else
+        // {
+        // System.out.print("not prime");
+        // }
 
-        scanner.close();
+        // scanner.close();
     
+
+        // t case
+        // int T = scanner.nextInt();
+        // for(int i=1;i<=T;i++){
+        //     int num = scanner.nextInt();
+        //     System.out.println(num%10);
+        // }
     }
 }
