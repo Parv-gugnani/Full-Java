@@ -4,6 +4,9 @@ import java.util.*;
 public class Whle {
     public static void main(String[] args) {
 
+        
+        Scanner scanner = new Scanner(System.in);
+
         // Q 
         // System.out.print("Enter a number: ");
         // int num = scanner.nextInt();
@@ -141,24 +144,73 @@ public class Whle {
 
         //multiple of 4
 
-          Scanner scanner = new Scanner(System.in);
+        //   Scanner scanner = new Scanner(System.in);
 
-        // Read the user input
-        int N = scanner.nextInt();
-        int i = 4;
-        while (i <= N) {
-           System.out.println(i + "");
-            i+=4;
-        }
+        // // Read the user input
+        // int N = scanner.nextInt();
+        // int i = 4;
+        // while (i <= N) {
+        //    System.out.println(i + "");
+        //     i+=4;
+        // }
+
+
+        // scanner.close();
+        
+        
+        // Scanner scanner = new Scanner(System.in);
+        
+        // String first = scanner.nextLine();
+        // String second = scanner.nextLine();
+
+
+        // System.out.println(first);
+        // System.out.println(second);
+
+
+        // System.out.println(first+ " says Hi to " +second);
+        
+        
+        // scanner.close();
+
+
+
+
+        // q - traingle  
+
+
+        // int a = scanner.nextInt();
+        // int b = scanner.nextInt();
+        // int c = scanner.nextInt();
+
+        // if (a == b && b == c)
+        // {
+        //     System.out.println("equilateral");
+        // }
+        // if (a != b && b != c && a != c) {
+        //     System.out.println("scalene");   
+        // }
+        // // 
+        // if (a == b || b == c || a == c) {
+        //     System.out.println("isosceles");   
+        // }
+
+
+        //q - fizbuzz
+
+        // if (n % 3 == 0 && n % 5 == 0) {
+        //     System.out.println("FizzBuzz");
+        // } else if (n % 3 == 0) {
+        //     System.out.println("Fizz");
+        // } else if (n % 5 == 0) {
+        //     System.out.println("Buzz");
+        // } else {
+        //     System.out.println(n);
+        // }
+        
 
 
         scanner.close();
-
-
-
-
-
-        
         
     }
 }
