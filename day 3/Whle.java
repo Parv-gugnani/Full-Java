@@ -182,35 +182,42 @@ public class Whle {
         // int a = scanner.nextInt();
         // int b = scanner.nextInt();
         // int c = scanner.nextInt();
-
+        
         // if (a == b && b == c)
         // {
         //     System.out.println("equilateral");
         // }
         // if (a != b && b != c && a != c) {
-        //     System.out.println("scalene");   
-        // }
-        // // 
-        // if (a == b || b == c || a == c) {
-        //     System.out.println("isosceles");   
-        // }
+            //     System.out.println("scalene");   
+            // }
+            // // 
+            // if (a == b || b == c || a == c) {
+                //     System.out.println("isosceles");   
+                // }
+                
+                
+                //q - fizbuzz
+                
+                // if (n % 3 == 0 && n % 5 == 0) {
+                    //     System.out.println("FizzBuzz");
+                    // } else if (n % 3 == 0) {
+                        //     System.out.println("Fizz");
+                        // } else if (n % 5 == 0) {
+                            //     System.out.println("Buzz");
+                            // } else {
+                                //     System.out.println(n);
+                                // }
+                                
+                                
+                            //    int n = scanner.nextInt();
 
-
-        //q - fizbuzz
-
-        // if (n % 3 == 0 && n % 5 == 0) {
-        //     System.out.println("FizzBuzz");
-        // } else if (n % 3 == 0) {
-        //     System.out.println("Fizz");
-        // } else if (n % 5 == 0) {
-        //     System.out.println("Buzz");
-        // } else {
-        //     System.out.println(n);
-        // }
-        
-
-
-        scanner.close();
-        
-    }
-}
+                            //    for (int i = 1; i <= n; i=i+1) {
+                            //     System.out.println(i);
+                                
+                            //    }
+                               
+                                
+                                scanner.close();
+                                
+                            }
+                        }

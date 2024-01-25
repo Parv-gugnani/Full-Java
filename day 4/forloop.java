@@ -48,5 +48,20 @@ public class forloop {
         //     int num = scanner.nextInt();
         //     System.out.println(num%10);
         // }
+
+
+        //******* satr
+
+        // Scanner scanner = new Scanner(System.in);
+
+        // int n = scanner.nextInt();
+
+        // for(int i = 1; i<=n; i++){
+        //     System.out.print("*");
+        // }
+
+
+
+        // scanner.close();
     }
 }
