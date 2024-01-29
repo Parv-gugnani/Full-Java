@@ -62,6 +62,6 @@ public class forloop {
 
 
 
-        // scanner.close();
+        scanner.close();
     }
 }
