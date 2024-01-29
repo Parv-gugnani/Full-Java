@@ -44,21 +44,59 @@ public class patt {
         // }
 
         // Q 5
-        int n = scanner.nextInt();
-        for (int row = 1; row <= n; row++) {
-        for (int col = 1; col <= row; col++) {
-            if(col%2 == 0) {
-                System.out.print(col);
-            }
-            else{
+        // int n = scanner.nextInt();
+        // for (int row = 1; row <= n; row++) {
+        // for (int col = 1; col <= row; col++) {
+        //     if(col%2 == 0) {
+        //         System.out.print(col);
+        //     }
+        //     else{
                 
-                System.out.print("*");
+        //         System.out.print("*");
 
-            }
-        }
-        System.out.println();
+        //     }
+        // }
+        // System.out.println();
            
+        // }
+
+
+        // Q 6
+        // int n = scanner.nextInt();
+        // for (int r = 1; r <= n; r++) {
+        //     System.out.print("*");
+        // for (int s = 1; s <= n-2; s++) {
+        //       System.out.print("-");
+        // }
+        // System.out.print("*");
+        // System.out.println();
+        // }
+        
+
+
+        // Q 7
+        // int n = scanner.nextInt();
+        // for (int i = 1; i <= n; i++) {
+        //    for (int c = n; c >= i; c--) {
+        //     System.out.print("*");
+        //    }
+        //    System.out.println();
+        // }
+
+
+        //Q 8
+        int n = scanner.nextInt();
+        for (int i = 1; i <= n; i++) {
+           for (int c = n; c >= i; c--) {
+            System.out.print("*");
+           }
+           System.out.println();
         }
+
+
+
+
+
         scanner.close();
     }
 }
