@@ -85,13 +85,13 @@ public class patt {
 
 
         //Q 8
-        int n = scanner.nextInt();
-        for (int i = 1; i <= n; i++) {
-           for (int c = n; c >= i; c--) {
-            System.out.print("*");
-           }
-           System.out.println();
-        }
+        // int n = scanner.nextInt();
+        // for (int i = 1; i <= n; i++) {
+        //    for (int c = n; c >= i; c--) {
+        //     System.out.print("*");
+        //    }
+        //    System.out.println();
+        // }
 
 
 
