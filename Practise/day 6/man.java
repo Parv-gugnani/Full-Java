@@ -111,7 +111,56 @@ public class man {
 
 
         // Q 6
-        //
+        // given an array as input return the frequency of k in the arary
+        // 1 2 2 2 6 / k = 3 
+
+        
+        // int n = scanner.nextInt();
+        // int [] arr = new int[n];
+        
+        // for(int i=0;i<n;i++){
+        //     arr[i] = scanner.nextInt();
+        // }
+        
+        // System.out.println("enter k :");
+        // int k = scanner.nextInt();
+        //  int m =0;
+        
+        // for(int i=0;i<n;i++){
+        //     if(arr[i]==k){
+        //         m++;
+        //     }
+        // }
+        // System.out.println("present k in this array are: "+ m);
+
+
+
+        // Q 7
+        // given arr as int return the fequency of count of an array
+        // 1 1 2 1 3 4 2 1 
+        // 4 4 2 4 1 1 2 4
+        // freq of 1 = 4 
+        // freq of 2 = 2 
+        // freq of 3 = 1 
+
+
+        int n = scanner.nextInt();
+        int [] arr = new int[n];
+        
+        for(int i=0;i<n;i++){
+            arr[i] = scanner.nextInt();
+        }
+        
+        System.out.println("enter k :");
+        int k = scanner.nextInt();
+         int m =0;
+        
+        for(int i=0;i<n;i++){
+            if(arr[i]==k){
+                m++;
+            }
+        }
+        System.out.println("present k in this array are: "+ m);
         
         
         
