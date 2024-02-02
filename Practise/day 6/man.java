@@ -144,23 +144,30 @@ public class man {
         // freq of 3 = 1 
 
 
-        int n = scanner.nextInt();
-        int [] arr = new int[n];
+        // int n = scanner.nextInt();
+        // int [] arr = new int[n];
         
-        for(int i=0;i<n;i++){
-            arr[i] = scanner.nextInt();
-        }
+        // for(int i=0;i<n;i++){
+        //     arr[i] = scanner.nextInt();
+        // }
         
-        System.out.println("enter k :");
-        int k = scanner.nextInt();
-         int m =0;
+        // System.out.println("enter k :");
+        // int k = scanner.nextInt();
+        //  int m =0;
         
-        for(int i=0;i<n;i++){
-            if(arr[i]==k){
-                m++;
-            }
-        }
-        System.out.println("present k in this array are: "+ m);
+        // for(int i=0;i<n;i++){
+        //     if(arr[i]==k){
+        //         m++;
+        //     }
+        // }
+        // System.out.println("present k in this array are: "+ m);
+
+        // Q 8
+        // given arr , check wather it is stictly increasing or not
+        // 0,2,2,6,7,8 = false
+        // 1,2,3,4,5,6 = true
+
+
         
         
         
