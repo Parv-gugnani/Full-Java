@@ -153,11 +153,34 @@ public class patt {
         //--*--
         //-***-
         //*****
-        int n =scanner.nextInt();
-        for(int row = 1; row<=n;row++){
-            
-        }
+        // int n = scanner.nextInt();
+        
+        // for(int row = 1; row <= n; row++) {
+        //     for(int space = 1; space <= n - row; space++) {
+        //         System.out.print(" ");
+        //     }
+        //     for(int star = 1; star <= 2 * row - 1; star++) {
+        //         System.out.print("*");
+        //     }
+        //     System.out.println(); 
+        // }
 
+
+        // Q 12 
+        //1234
+        //123
+        //12
+        //1
+        // int n = scanner.nextInt();
+        // for (int r = 1; r <= n; r++) {
+        //     for (int c = 1; c <= n + 1 - r; c++) {
+        //         System.out.print(c);
+        //         if (c < n + 1 - r) {
+        //             System.out.print(" "); // Add a space if it's not the last number in the row
+        //         }
+        //     }
+        //     System.out.println();
+        // }
 
 
 
