@@ -84,26 +84,37 @@ public class man {
         // Q 5
         //given a arr check whether k is present or not
 
-        int n = scanner.nextInt();
-        int [] arr = new int[n];
+        // int n = scanner.nextInt();
+        // int [] arr = new int[n];
+
+        // for(int i=0;i<n;i++){
+        //         arr[i] = scanner.nextInt();
+        //     }
         
-        for(int i=0;i<n;i++){
-            arr[i] = scanner.nextInt();
-        }
+        // System.out.println("enter k");
+        // int k = scanner.nextInt();
+        // // 
+        // boolean falg = false;
+        
+        // for(int i=0;i<n;i++){
+        //     if(arr[i]==k){
+        //         falg = true;
+        //         break;
+        //     }
+        // }
+        // if(falg==false){
+        // System.out.println("false");
+        // }
+        // else{
+        // System.out.println("true");
+        // }
+
+
+        // Q 6
+        //
         
         
-        System.out.println("enter k");
-        int k = scanner.nextInt();
         
-        for(int i=0;i<arr.length;i++){
-          if(arr[n] == k)
-          {
-            System.out.println(true);
-        }
-        else{
-            System.out.println(false);
-        }
-        }
       
         scanner.close();
     }
