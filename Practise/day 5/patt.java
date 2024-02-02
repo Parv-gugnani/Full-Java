@@ -71,28 +71,92 @@ public class patt {
         // System.out.print("*");
         // System.out.println();
         // }
+
+        // output
+
+        /*
+        *---*
+        *---*
+        *---*
+        *---*
+        *---*
+         */
         
 
 
         // Q 7
+        // ****
+        // ***
+        // **
+        // *
         // int n = scanner.nextInt();
-        // for (int i = 1; i <= n; i++) {
-        //    for (int c = n; c >= i; c--) {
+        // for (int r = 1; r <= n; r++) {
+        // for (int s = 1; s <= n+1-r; s++) {
         //     System.out.print("*");
-        //    }
+        // }
         //    System.out.println();
         // }
 
 
         //Q 8
+        // *---*
+        // *--*
+        // *-*
+        // **
         // int n = scanner.nextInt();
-        // for (int i = 1; i <= n; i++) {
-        //    for (int c = n; c >= i; c--) {
+        // for (int r = 1; r <= n; r++) {
         //     System.out.print("*");
-        //    }
+        //    for (int space = 1 ; space <= n-r; space++) {
+        //     System.out.print("-");
+        // }
+        //    System.out.print("*");
         //    System.out.println();
         // }
 
+        //Q 9
+        // --*
+        // -**
+        // ***
+        //    int n = scanner.nextInt();
+        //   for(int r = 1; r <= n; r++) {
+        //     for(int space = 1;space<=n-r;space++){
+        //         System.out.print(" ");
+        //     }
+        //     for(int star = 1; star<=r; star++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+
+        //   }
+
+        // Q 10
+        // ********
+        // ***--***
+        // **----**
+        // *------*
+        // int n =scanner.nextInt();
+        // for(int r = 1; r<=n;r++){
+        //     for(int star =1 ;star<=n+1-r;star++){
+        //         System.out.print("*");
+        //     }
+        //     for(int space = 1;space<=2*(r-1);space++){
+        //         System.out.print("-");
+        //     }
+        //     for(int star2 = 1; star2<=n+1-r;star2++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+
+
+        // Q 11
+        //--*--
+        //-***-
+        //*****
+        int n =scanner.nextInt();
+        for(int row = 1; row<=n;row++){
+            
+        }
 
 
 
