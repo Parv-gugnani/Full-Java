@@ -168,6 +168,70 @@ public class man {
         // 1,2,3,4,5,6 = true
 
 
+        // assingments
+        // Q 1 input arr of [n] reverse oder where print is reverse
+
+        // int n = scanner.nextInt();
+        // int [] arr = new int[n];
+
+        // for(int i=0;i<n;i++){
+        //     arr[i] = scanner.nextInt();
+        // }
+        
+        // for (int i = n - 1; i >= 0; i--) {
+        //     System.out.print(arr[i] + " ");
+        // }
+
+
+        // Q 2 
+        // 
+        // 
+        // 
+        // 
+
+       
+
+
+        // Q 3 max and min 
+
+        // int n = scanner.nextInt();
+        // int [] arr = new int[n];
+
+        // for(int i=0;i<n;i++){
+        //     arr[i] = scanner.nextInt();
+        // }
+        
+        // int max = arr[0];
+        // int min = arr[0];
+        
+        // for(int i=0;i<arr.length;i++){
+        //     if(arr[i] > max){
+        //         max = arr[i];
+        //     }
+        //         if(arr[i] < min){
+        //             min = arr[i];
+        //         }
+        // }
+        // System.out.println(max);
+        // System.out.println(min);
+
+
+
+        // Q 4 sum
+        int n = scanner.nextInt();
+        int [] arr = new int[n];
+
+        for(int i=0;i<n;i++){
+            arr[i] = scanner.nextInt();
+        }
+        
+        int sum = 0;
+        
+        for(int i=0;i<n;i++){
+            sum = sum + arr[i];
+        }
+
+        System.out.println(sum);
         
         
         
