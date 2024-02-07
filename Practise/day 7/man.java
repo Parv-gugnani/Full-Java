@@ -16,5 +16,16 @@ public class man {
     //boolean -> Boolean
     //char ->  Character
     //double -> Double
+
+    ArrayList<Integer> list = new ArrayList<Integer>();
+
+    // // add
+    // list.add(10);
+    // System.out.println(list);
+
+    // // get
+    // System.out.print(list.get(2));
+    // // System.out.print(list.get(-1));
+
     
 }
