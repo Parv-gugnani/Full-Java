@@ -1,3 +1,4 @@
+//array list
 import java.util.*;
 
 public class man {
@@ -8,5 +9,12 @@ public class man {
     //it doesn't support primitive datatypes 
     //int 
     //long 
+
+
+    //int -> integer
+    //float -> float
+    //boolean -> Boolean
+    //char ->  Character
+    //double -> Double
     
 }
