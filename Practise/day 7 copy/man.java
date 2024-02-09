@@ -8,8 +8,47 @@ public class man {
             System.out.println(str.charAt(i));
         }
     }
+
+    
+    private static void printascii(String str){
+        for(int i=0;i<str.length();i++){ 
+            char chr = str.charAt(i);
+            int code = chr;
+            System.out.println(code); 
+            // System.out.println((int)chr); 
+        }
+    }
+    // 
+    private static int printup(String str){
+        int count = 0;
+        for(int i=0;i<str.length();i++){ 
+            char chr = str.charAt(i);
+            // if(chr>=65 && chr<=90){
+            //     count++;
+            // }
+            if(chr>='0' && chr<='9'){
+                count++;
+            }
+        }
+        return count;
+    }
+
+    // 
+    private static int printspc(String str){
+        int count = 0;
+        for(int i=0;i<str.length();i++){ 
+            char chr = str.charAt(i);
+         
+            if(chr>='0' && chr<='9'){
+                count++;
+            }
+        }
+        return count;
+    }
+
+
     public static void main(String[] args){
-        String country = "India";
+        String country = "India 25";
         //"India"
 
         //length of string : length()
@@ -25,7 +64,7 @@ public class man {
         // d
         // i
         // a
-        printCharByChar(country);
+        // printCharByChar(country + " " );
 
         //Q2
         //given  a string print ASCII of its characters in new line
@@ -36,6 +75,19 @@ public class man {
         // 105
         // 97
         // hint: java understand char as number
+        // printascii(country + " " );
+
+
+        // Q3
+        //given a string print Uppercase characer
+        // string : "PARV gugnani"
+        // out : 4
+        // printup("This is counting" + country);
+
+        // Q4 given a astring count the special char
+        // string : $%^&*()_)@pweojsmfiopip
+
+        printspc
 
     }
  
