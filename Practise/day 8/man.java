@@ -33,13 +33,31 @@ public class man {
         return count;
     }
 
+    private static String printrev(String str){
+        String result = "";
+        for(int i=str.length()-1;i>=0;i--){
+            result += str.charAt(i);
+        }
+        return result;
+    }
     // 
-    private static int printspc(String str){
+    private static boolean tellpal(String str){
+       String printrev = reverse(str);
+       if(str.equals(printrev)) {
+        return true;
+       }
+        
+    }
+
+    // 
+    private static String printspc(String str){
         int count = 0;
         for(int i=0;i<str.length();i++){ 
             char chr = str.charAt(i);
-         
-            if(chr>='0' && chr<='9'){
+    
+            if(
+                !(chr>='0' && chr<='9') && !(chr>='a' && chr<='z') && !(chr>='A' && chr<='Z')
+            ){
                 count++;
             }
         }
@@ -48,7 +66,7 @@ public class man {
 
 
     public static void main(String[] args){
-        String country = "India 25";
+        String country = "India 25 @#%$";
         //"India"
 
         //length of string : length()
@@ -86,9 +104,15 @@ public class man {
 
         // Q4 given a astring count the special char
         // string : $%^&*()_)@pweojsmfiopip
+       //  System.out.println(printspc("hey $%^"));
 
-        printspc
-
+       // Q5 given a string return reverse of string
+       //in: Parv
+       // out : vraP
+    //    System.out.println(printrev("Parv"));
+    
+    //Q 6 given a string tell me it is a palindrome
+       System.out.println(tellpal("LooL"));
     }
  
     
