@@ -159,6 +159,11 @@ public class man {
     //    }
     //  }
 
+    // hello from past
+    // hello from past
+    // hello from past
+    // hello from past
+
 
     //Q3 is palindrome
     /*
