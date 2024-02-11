@@ -112,8 +112,74 @@ public class man {
     //    System.out.println(printrev("Parv"));
     
     //Q 6 given a string tell me it is a palindrome
-       System.out.println(tellpal("LooL"));
-    }
+    //    System.out.println(tellpal("LooL"));
+    // }
  
+
+    //Assigment
+
+        //Q1
+        // take n no of string 
+        // print the lenght of the n number of string by their line
+        /*
+
+        import java.util.Scanner;
+
+        public class Main {
+       public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int n = scanner.nextInt();
+
+        String[] strings = new String[n];
+
+        for (int i = 0; i < n; i++) {
+            strings[i] = scanner.next();
+        }
+
+        for (String str : strings) {
+            System.out.println(str.length());
+        }
+
+        scanner.close();
+    }
+}
+
+         */
+
+         //Q2
+         // make smallcase to uppercase
+         
+    //     public class Solution {
+    //     public String solve(String S) {
+
+    //     String uppercaseS = S.toUpperCase();
+        
+    //     return uppercaseS;
+    //    }
+    //  }
+
+
+    //Q3 is palindrome
+    /*
+     public static boolean isPalin(String s) {
+        int left = 0;
+        int right = s.length() - 1;
+        
+        while (left < right) {
+        if (s.charAt(left) != s.charAt(right)) {
+                return false;
+            }
+            
+            left++;
+            right--;
+        }
+        
+        return true;
+    }
+     */
+          
+
+    }
     
 }
