@@ -219,12 +219,23 @@
 
 
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
 
-class ArrayList {
-    public static void main(String[] args){
-        // Integer | Float | String | Boolean | Double
-        //def
-        ArrayList<Integer> list = new ArrayList<>();
-    }
-}
+// class man {
+//     public static void main(String args[]){
+//         // Integer | Float | String | Boolean | Double
+//         //def
+//         ArrayList<Integer> list = new ArrayList<Integer>();//this is also okay // ArrayList<Integer> list = new ArrayList<Integer>();
+
+
+//         //add element
+//         list.add(0);
+//         list.add(2);
+//         list.add(3);
+
+
+//         // ArrayList<String> list2 = new ArrayList<String>();
+//         // ArrayList<Boolean> list3 = new ArrayList<Boolean>();
+
+//     }
+// }
