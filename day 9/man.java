@@ -175,9 +175,7 @@ public class man {
 
         // Q1
         //given an array as inpuyt return the corresponding frequncey  map
-
         //input: 1,4,3,-2,1,0,2,1,3,4
-
         //output: mainly to tell that how many timne occurance
 
 
