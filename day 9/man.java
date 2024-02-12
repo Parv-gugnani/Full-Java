@@ -120,6 +120,22 @@ import java.util.*;
 
  
 public class man {
+    
+    private static HashMap<Integer,Integer> freqCount(int[] arr){
+        HashMap<Integer,Integer> map = new HashMap<>();
+            for(int i = 0; i < arr.length; i++){
+                //arr[i]
+                if(map.containsKey(arr[i])){
+                    int currentFreq = map.get(arr[i]);
+                    int updatedFreq = currentFreq+1;
+                    map.put(arr[i],updatedFreq);
+                }
+                else{
+                    map.put(arr[i],1); 
+                    // 
+                }
+         }
+    }
 
     public static void main(String[] args){
 
@@ -177,6 +193,10 @@ public class man {
         //given an array as inpuyt return the corresponding frequncey  map
         //input: 1,4,3,-2,1,0,2,1,3,4
         //output: mainly to tell that how many timne occurance
+
+        // int [] = [1,2,3,1,4,6,7,7,7,3,2]
+
+        
 
 
 
