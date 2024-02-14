@@ -193,8 +193,13 @@ public class man {
         //given an array as inpuyt return the corresponding frequncey  map
         //input: 1,4,3,-2,1,0,2,1,3,4
         //output: mainly to tell that how many timne occurance
+        // i nt [] = [1,2,3,1,4,6,7,7,7,3,2]
 
-        // int [] = [1,2,3,1,4,6,7,7,7,3,2]
+
+        //TODO: Assignments
+            
+
+        // Q1
 
         
 
