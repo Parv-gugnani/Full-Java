@@ -7,6 +7,8 @@ public class man {
         
         int n = scanner.nextInt();
 
+        // sqrt(20); this is square root
+
 
         scanner.close();
     }
