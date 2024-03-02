@@ -1,5 +1,5 @@
 # This is basics of java
 
-## JavaTpoint Docs
+### JavaTpoint Docs
 
-![alt text](image.png)
+## If else
