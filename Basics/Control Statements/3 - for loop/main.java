@@ -47,6 +47,29 @@ public class main {
             System.out.println();
         }
 
+        System.out.println("------------");
+        
+        int arr[] = {12,10,16,85,100,42};
+        for(int i : arr){
+            System.out.println(i);
+        }
+
+        // Java Labeled For Loop
+
+        System.out.println("------------");
+        
+        aa:
+        for(int i=1;i<=3;i++){  
+            bb:  
+                for(int j=1;j<=3;j++){  
+                    if(i==2&&j==2){  
+                        break aa;  
+                    }  
+                System.out.println(i + " " + j);
+            }
+        }
+
+
 
     }
     
