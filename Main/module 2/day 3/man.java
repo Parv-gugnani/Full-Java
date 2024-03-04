@@ -1,5 +1,7 @@
 //Space Complexity assignment
 
+import java.util.ArrayList;
+
 public class man {
     public int solve(ArrayList<Integer> A) {
         if (A.isEmpty()) {
