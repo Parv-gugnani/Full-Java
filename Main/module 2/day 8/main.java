@@ -56,7 +56,7 @@ public class main {
     }
 
 
-//Q 5  Rotate the image by 90 degrees 
+//Q 5  Rotate the image by 90 degrees m
     public void solve(ArrayList<ArrayList<Integer>> A) {
         int n = A.size();
         
