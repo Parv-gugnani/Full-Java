@@ -52,13 +52,35 @@ public class main {
         //     columnSums.add(j, sum);
         // }
 
-        // return columnSums;
+        // return columnSums;  
+    }
 
 
+//Q 5  Rotate the image by 90 degrees 
+    public void solve(ArrayList<ArrayList<Integer>> A) {
+        int n = A.size();
+        
+        // Transpose the matrix
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                int temp = A.get(i).get(j);
+                A.get(i).set(j, A.get(j).get(i));
+                A.get(j).set(i, temp);
+            }
+        }
         
 
-      
-        
+        for (int i = 0; i < n; i++) {
+            int left = 0;
+            int right = n - 1;
+            while (left < right) {
+                int temp = A.get(i).get(left);
+                A.get(i).set(left, A.get(i).get(right));
+                A.get(i).set(right, temp);
+                left++;
+                right--;
+            }
+        }
     }
     
 }
