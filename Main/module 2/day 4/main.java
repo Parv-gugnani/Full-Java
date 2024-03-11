@@ -1,0 +1,5 @@
+//array
+
+public class main {
+    
+}
