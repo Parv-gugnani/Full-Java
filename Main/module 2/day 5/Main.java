@@ -1,7 +1,7 @@
 //Prefix Sum
+import java.util.ArrayList;
 
-
-class Main {
+public class Main {
     static void fillPrefixSum(int arr[], int n,
      int prefixSum[])
     {
