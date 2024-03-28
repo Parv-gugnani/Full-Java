@@ -28,7 +28,14 @@ public class man{
         arr.clear();
 
 
+        //Array list functions
+
+        // add
+        arr.add("John");
         System.out.println(arr);
+
+
+
         
         
         
