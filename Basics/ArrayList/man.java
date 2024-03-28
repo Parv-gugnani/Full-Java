@@ -12,23 +12,23 @@ public class man{
 
         
         // ArrayList<DataType> arrayListInstance = new ArrayList<DataType>();
-        ArrayList<String> arrl = new ArrayList<>();
+        ArrayList<String> arr = new ArrayList<>();
 
-        System.out.println(arrl);
+        System.out.println(arr);
 
-        arrl.add("Hey");
-        arrl.add("this");
+        arr.add("Hey");
+        arr.add("this");
 
-        System.out.println(arrl);
+        System.out.println(arr);
 
-        arrl.remove("Hey");
+        arr.remove("Hey");
 
-        System.out.println(arrl.size());
+        System.out.println(arr.size());
         
-        arrl.clear();
+        arr.clear();
 
 
-        System.out.println(arrl);
+        System.out.println(arr);
         
         
         
