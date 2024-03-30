@@ -8,14 +8,26 @@ public class main {
     public static void main(String[] args){
 
 
+        int n = 4;
+        int a[][] = { { 1, 2, 3, 4 },
+                      { 5, 6, 7, 8 },
+                      { 1, 2, 3, 4 },
+                      { 5, 6, 7, 8 } };
+ 
+        printdig(a, n);
+
+
         //input of 2darr
 
-        Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
 
-        int row = scanner.nextInt();
-        int col = scanner.nextInt();
+        // int row = scanner.nextInt();
+        // int col = scanner.nextInt();
 
-        int [][] arr = new int[row][col];
+        // int [][] arr = new int[row][col];
+
+
+        
 
         // for(int i = 0; i < row; i++){
         //     for(int j = 0; j <col; j++) {
@@ -57,30 +69,46 @@ public class main {
 
 
 //Q 5  Rotate the image by 90 degrees m
-    public void solve(ArrayList<ArrayList<Integer>> A) {
-        int n = A.size();
+    // public void solve(ArrayList<ArrayList<Integer>> A) {
+    //     int n = A.size();
         
-        // Transpose the matrix
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                int temp = A.get(i).get(j);
-                A.get(i).set(j, A.get(j).get(i));
-                A.get(j).set(i, temp);
-            }
-        }
+    //     // Transpose the matrix
+    //     for (int i = 0; i < n; i++) {
+    //         for (int j = i + 1; j < n; j++) {
+    //             int temp = A.get(i).get(j);
+    //             A.get(i).set(j, A.get(j).get(i));
+    //             A.get(j).set(i, temp);
+    //         }
+    //     }
         
 
-        for (int i = 0; i < n; i++) {
-            int left = 0;
-            int right = n - 1;
-            while (left < right) {
-                int temp = A.get(i).get(left);
-                A.get(i).set(left, A.get(i).get(right));
-                A.get(i).set(right, temp);
-                left++;
-                right--;
+    //     for (int i = 0; i < n; i++) {
+    //         int left = 0;
+    //         int right = n - 1;
+    //         while (left < right) {
+    //             int temp = A.get(i).get(left);
+    //             A.get(i).set(left, A.get(i).get(right));
+    //             A.get(i).set(right, temp);
+    //             left++;
+    //             right--;
+    //         }
+    //     }
+    // }
+
+
+    // printing diafglnal sum
+
+    static void printdig(int A[][], int n){
+
+        int sum = 0;
+        for(int i = 0; i<n;i++){
+            for(int j = 0; j < n ;j++){
+                if(i == j ){
+                    sum += A[i][j];
+                }
             }
         }
-    }
-    
+        System.out.println("");
+        
+    }    
 }
