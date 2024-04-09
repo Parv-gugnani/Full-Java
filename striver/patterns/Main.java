@@ -1,4 +1,4 @@
-package striver.patterns;
+
 
 public class Main {
 
