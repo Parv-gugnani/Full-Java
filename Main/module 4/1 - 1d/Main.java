@@ -6,8 +6,6 @@ public class Main {
     // public int maxSubArray(final int[] A) {
     //     int cursum = 0;
     //        int maxsum = Integer.MIN_VALUE;
-
-
     //         for(int i = 0 ; i< A.length ;i++){
     //             cursum += A[i];
     //             if(cursum > maxsum){
@@ -18,7 +16,6 @@ public class Main {
     //             }
     //         }
     //             return maxsum;
-
     // }
 
 
@@ -68,5 +65,17 @@ public class Main {
             return new ArrayList<Integer>();
         }
         else return ans;
+    }
+
+
+    //Q2 - aditional finding good days
+
+    public int solve(int A) {
+        int ans = 0;
+        while(A>0){
+            if(A%2==1) ans++;
+            A /= 2;
+        }
+        return ans;
     }
 }
