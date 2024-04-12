@@ -31,4 +31,26 @@ public class Solution {
        return findAthFibonacci(A - 1) + findAthFibonacci(A - 2);
    }
 
+
+   // Q3 optional - check palindrome
+
+    public int isPalindrome(String A) {
+         // Call the recursive helper function to check if A is a palindrome
+         return isPalindromeHelper(A, 0, A.length() - 1) ? 1 : 0;
+     }
+     
+     private boolean isPalindromeHelper(String A, int start, int end) {
+         if (start >= end) {
+             return true;
+         }
+         
+         if (A.charAt(start) != A.charAt(end)) {
+             return false;
+         }
+         
+         return isPalindromeHelper(A, start + 1, end - 1);
+     }
+
+ 
+
 }
