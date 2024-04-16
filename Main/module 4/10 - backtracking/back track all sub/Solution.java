@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class backtrackingallsub {
+public class Solution {
 
     public static void findsub(int[] arr)
     {
