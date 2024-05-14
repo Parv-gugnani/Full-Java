@@ -1,5 +1,5 @@
 public class Solution{
-    public int[] solve(int[]     A){
+    public int[] solve(int[] A){
 
         int lo =0;
         int mid = 0;
