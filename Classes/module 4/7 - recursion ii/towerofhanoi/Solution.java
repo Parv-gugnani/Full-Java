@@ -25,3 +25,25 @@ public class Solution {
         moveDisks(n - 1, auxRod, toRod, fromRod, moves);
     }
 }
+
+
+// 3 august
+/*
+ public class Solution {
+    public int[][] towerOfHanoi(int A) {
+        List<int[]> result = new ArrayList<>();
+        movedisk(A , 1 , 3 , 2, result);
+        return result.toArray(new int[result.size()][]);
+    }
+
+    private void movedisk(int n, int start, int end, int temp, List<int[]> result){
+        if(n == 0) return;
+
+        movedisk(n - 1, start, temp, end , result);
+        result.add(new int[]{n, start, end});
+
+        movedisk(n-1, temp, end , start, result);
+    }
+}
+
+ */
